@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <group
+        android:checkableBehavior="single">
+    </group>
+    <item android:title="Встроенный контент">
+        <menu>
+            <item android:title="@string/fish"
+                android:id="@+id/id_fish"
+                android:icon="@drawable/fish"/>
+            <item android:title="@string/na"
+                android:id="@+id/id_na"
+                android:icon="@drawable/bait"/>
+            <item android:title="@string/sna"
+                android:id="@+id/id_sna"
+                android:icon="@drawable/tackle"/>
+        </menu>
+    </item>
+    <item android:title="Пользовательский контент">
+        <menu>
+            <item android:title="@string/history"
+                android:id="@+id/id_history"
+                android:icon="@drawable/talltales"/>
+        </menu>
+    </item>
+</menu>

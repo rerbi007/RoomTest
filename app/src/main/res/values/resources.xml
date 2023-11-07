@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="fish">
+        <item>Сом</item>
+        <item>Налим</item>
+        <item>Щука</item>
+        <item>Карась</item>
+    </string-array>
+    <string-array name="fish_content">
+        <item>Описание Описание Описание</item>
+        <item>Описание Описание Описание</item>
+        <item>Описание Описание Описание</item>
+        <item>Описание Описание Описание</item>
+    </string-array>
+    <array name="fish_image_array">
+        <item>@drawable/catfish</item>
+        <item>@drawable/catfish</item>
+        <item>@drawable/pike</item>
+        <item>@drawable/pike</item>
+    </array>
+
+    <string-array name="na">
+        <item>Сеть</item>
+        <item>Удочка</item>
+        <item>Спиннинг</item>
+        <item>Блесна</item>
+    </string-array>
+    <string-array name="na_content">
+        <item>Описание Описание Описание</item>
+        <item>Описание Описание Описание</item>
+        <item>Описание Описание Описание</item>
+        <item>Описание Описание Описание</item>
+    </string-array>
+    <array name="na_image_array">
+        <item>@drawable/catfish</item>
+        <item>@drawable/catfish</item>
+        <item>@drawable/pike</item>
+        <item>@drawable/pike</item>
+    </array>
+
+    <string-array name="sna">
+        <item>Сеть</item>
+        <item>Удочка</item>
+        <item>Спиннинг</item>
+        <item>Блесна</item>
+    </string-array>
+    <string-array name="sna_content">
+        <item>Описание Описание Описание</item>
+        <item>Описание Описание Описание</item>
+        <item>Описание Описание Описание</item>
+        <item>Описание Описание Описание</item>
+    </string-array>
+    <array name="sna_image_array">
+        <item>@drawable/catfish</item>
+        <item>@drawable/catfish</item>
+        <item>@drawable/pike</item>
+        <item>@drawable/pike</item>
+    </array>
+
+    <string-array name="history">
+        <item>Сеть</item>
+        <item>Удочка</item>
+        <item>Спиннинг</item>
+        <item>Блесна</item>
+    </string-array>
+    <string-array name="history_content">
+        <item>Описание Описание Описание</item>
+        <item>Описание Описание Описание</item>
+        <item>Описание Описание Описание</item>
+        <item>Описание Описание Описание</item>
+    </string-array>
+    <array name="history_image_array">
+        <item>@drawable/catfish</item>
+        <item>@drawable/catfish</item>
+        <item>@drawable/pike</item>
+        <item>@drawable/pike</item>
+    </array>
+</resources>
