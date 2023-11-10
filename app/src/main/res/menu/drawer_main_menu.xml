@@ -5,24 +5,24 @@
     <group
         android:checkableBehavior="single">
     </group>
-    <item android:title="Встроенный контент">
+    <item android:title="@string/embedded_content">
         <menu>
             <item android:title="@string/fish"
                 android:id="@+id/id_fish"
-                android:icon="@drawable/fish"/>
+                android:icon="@drawable/baseline_set_meal_24"/>
             <item android:title="@string/na"
                 android:id="@+id/id_na"
-                android:icon="@drawable/bait"/>
+                android:icon="@drawable/baseline_pest_control_24"/>
             <item android:title="@string/sna"
                 android:id="@+id/id_sna"
-                android:icon="@drawable/tackle"/>
+                android:icon="@drawable/baseline_phishing_24"/>
         </menu>
     </item>
-    <item android:title="Пользовательский контент">
+    <item android:title="@string/user_generated_content">
         <menu>
             <item android:title="@string/history"
                 android:id="@+id/id_history"
-                android:icon="@drawable/talltales"/>
+                android:icon="@drawable/baseline_record_voice_over_24"/>
         </menu>
     </item>
 </menu>
