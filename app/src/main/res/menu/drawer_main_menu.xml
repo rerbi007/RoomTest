@@ -25,4 +25,15 @@
                 android:icon="@drawable/baseline_record_voice_over_24"/>
         </menu>
     </item>
+    <item android:title="@string/webview_html">
+        <menu>
+            <item android:title="@string/example"
+                android:id="@+id/id_example"
+                android:icon="@drawable/baseline_html_24"/>
+
+            <item android:title="@string/blowfish"
+                android:id="@+id/id_blowfish"
+                android:icon="@drawable/baseline_html_24"/>
+        </menu>
+    </item>
 </menu>

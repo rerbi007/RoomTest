@@ -1,7 +1,6 @@
 package com.handbook.fisherman
 
 import android.os.Bundle
-import android.os.PersistableBundle
 import android.widget.ImageView
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
@@ -15,6 +14,6 @@ class ContentActivity: AppCompatActivity() {
         val iv: ImageView = findViewById(R.id.iv)
         tvTitle.text = intent.getStringExtra("title")
         tvContent.text = intent.getStringExtra("content")
-        iv.setImageResource(intent.getIntExtra("image", R.drawable.ic_fish))
+        iv.setImageResource(intent.getIntExtra("image", R.drawable.pike))
     }
 }

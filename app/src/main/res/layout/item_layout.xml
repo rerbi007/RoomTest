@@ -13,9 +13,7 @@
         android:id="@+id/cdv"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginStart="1dp"
-        android:layout_marginTop="1dp"
-        android:layout_marginEnd="1dp"
+        android:layout_margin="1dp"
         app:cardBackgroundColor="#00000000"
         app:cardCornerRadius="15dp"
         app:cardElevation="0dp"
@@ -28,18 +26,21 @@
             android:id="@+id/im"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:maxHeight="320dp"
+            android:scaleType="fitCenter"
             android:adjustViewBounds="true"
             android:contentDescription="@string/Image_of_the_element"
-
-            android:scaleType="centerCrop"
             android:src="@drawable/pike" />
     </androidx.cardview.widget.CardView>
 
     <TextView
         android:id="@+id/tvTitle"
-        android:layout_width="wrap_content"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
+        android:layout_marginLeft="36dp"
+        android:layout_marginTop="36dp"
+        android:layout_marginRight="36dp"
+        android:gravity="center_horizontal"
         android:text="@string/fish_name"
         android:textSize="32sp"
         android:textStyle="bold"

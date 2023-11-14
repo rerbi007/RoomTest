@@ -7,4 +7,16 @@
     <string name="imageofsmth">ImageOfSmth</string>
     <string name="fisherman_hand_book">Fisherman Hand Book</string>
     <string name="favourites">Избранное</string>
+    <string name="fish_name">Fish_name</string>
+    <string name="fish_description">Fish_description</string>
+    <string name="me">Me</string>
+    <string name="metv">Me</string>
+    <string name="textview">TextView</string>
+    <string name="embedded_content">Встроенный контент</string>
+    <string name="user_generated_content">Пользовательский контент</string>
+    <string name="Image_of_the_element">Изображение элемента</string>
+    <string name="scroll">scroll</string>
+    <string name="example">example</string>
+    <string name="webview_html">WebView HTML</string>
+    <string name="blowfish">blowfish</string>
 </resources>

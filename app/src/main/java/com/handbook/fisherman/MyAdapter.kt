@@ -1,5 +1,6 @@
 package com.handbook.fisherman
 
+import android.annotation.SuppressLint
 import android.content.Context
 import android.content.Intent
 import android.view.LayoutInflater
@@ -22,7 +23,8 @@ class MyAdapter(listArray:ArrayList<ListItem>, context: Context): RecyclerView.A
 
         fun bind(listItem: ListItem, context: Context){
             tvTitle.text = listItem.titleText
-            tvContent.text = listItem.contentText
+            val content: String = listItem.contentText
+            tvContent.text = content
             im.setImageResource(listItem.image_id)
             itemView.setOnClickListener{
                 Toast.makeText(context, "Pressed: ${tvTitle.text}", Toast.LENGTH_SHORT).show()
@@ -47,10 +49,11 @@ class MyAdapter(listArray:ArrayList<ListItem>, context: Context): RecyclerView.A
     }
 
     override fun onBindViewHolder(holder: ViewHolder, position: Int) {
-        var listItem = listArrayR.get(position)
+        val listItem = listArrayR.get(position)
         holder.bind(listItem, contextR)
     }
 
+    @SuppressLint("NotifyDataSetChanged")
     fun updateAdapter(listArray: List<ListItem>){
         listArrayR.clear()
         listArrayR.addAll(listArray)
